@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #B85C3B;
+  --color-brand-accent: #B9A7E0;
+  --color-brand-bg: #FFFDF7;
+  --color-brand-secondary: #F0EAF8;
+  --color-brand-text: #292329;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FFFDF7;
+    color: #292329;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F0EAF8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B9A7E0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B85C3B;
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm;
+  }
+
+  body {
+    background: #fff !important;
+    color: #292329 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body * {
+    visibility: hidden;
+  }
+
+  .invoice-print,
+  .invoice-print * {
+    visibility: visible;
+  }
+
+  .invoice-print {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  .invoice-no-print {
+    display: none !important;
+  }
+}

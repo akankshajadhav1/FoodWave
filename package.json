@@ -1,0 +1,11 @@
+{
+  "name": "food-delivery-app-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev",
+    "backend": "cd Backend && npm run dev",
+    "frontend": "cd Frontend && npm run dev",
+    "seed": "cd Backend && node seed.js"
+  }
+}
