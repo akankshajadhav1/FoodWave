@@ -200,16 +200,27 @@ FoodDeliveryApp/
 
 ## Views
 
-<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 20 48 PM" src="https://github.com/user-attachments/assets/8306fc71-a065-47b3-aa19-416409affa8a" />
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 7 40 43 PM" src="https://github.com/user-attachments/assets/0920dc91-dcb2-49aa-9709-4f656d4cf225" />
 
-<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 21 21 PM" src="https://github.com/user-attachments/assets/c01669c1-68d9-4b21-81cc-e30e190a7fd6" />
 
-<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 21 44 PM" src="https://github.com/user-attachments/assets/73e889d7-a110-41f0-a795-da9ab8b9611e" />
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 21 21 PM" src="https://github.com/user-attachments/assets/ce988c99-50c1-4a5d-80f9-b5616a2dd654" />
 
-<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 25 10 PM" src="https://github.com/user-attachments/assets/d8a4a858-6c26-4783-a3cc-eb5e2bd19129" />
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 21 44 PM" src="https://github.com/user-attachments/assets/5303ef64-f2fd-40d1-8584-27efa17ab052" />
 
-<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 25 31 PM" src="https://github.com/user-attachments/assets/cac7d844-a481-41d4-b860-08b32b22d503" />
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 25 10 PM" src="https://github.com/user-attachments/assets/ae28db0f-2b1c-4430-8bf2-2e9b8ef68638" />
 
- <img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 26 16 PM" src="https://github.com/user-attachments/assets/78872f04-e17f-4bf1-a4ac-2a7f765ca07d" />
- 
+
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 25 31 PM" src="https://github.com/user-attachments/assets/22a354d7-d0e1-4f9a-957c-4cdd6e960821" />
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 26 24 PM" src="https://github.com/user-attachments/assets/c3950e55-da24-4a4f-90dc-c1abab535aea" />
+
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 26 16 PM" src="https://github.com/user-attachments/assets/c1e9e5e8-07a9-4aed-875d-6b3f661e98e6" />
+
+
+
+
+
+
 
