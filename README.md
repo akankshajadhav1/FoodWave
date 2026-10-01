@@ -197,3 +197,19 @@ FoodDeliveryApp/
 - Use HTTPS and production-ready MongoDB access controls when deploying.
 - Public registration creates customer accounts only; privileged roles should
   be assigned through a trusted process.
+
+## Views
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 20 48 PM" src="https://github.com/user-attachments/assets/8306fc71-a065-47b3-aa19-416409affa8a" />
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 21 21 PM" src="https://github.com/user-attachments/assets/c01669c1-68d9-4b21-81cc-e30e190a7fd6" />
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 21 44 PM" src="https://github.com/user-attachments/assets/73e889d7-a110-41f0-a795-da9ab8b9611e" />
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 25 10 PM" src="https://github.com/user-attachments/assets/d8a4a858-6c26-4783-a3cc-eb5e2bd19129" />
+
+<img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 25 31 PM" src="https://github.com/user-attachments/assets/cac7d844-a481-41d4-b860-08b32b22d503" />
+
+ <img width="1470" height="956" alt="Screenshot 2026-10-01 at 6 26 16 PM" src="https://github.com/user-attachments/assets/78872f04-e17f-4bf1-a4ac-2a7f765ca07d" />
+ 
+
