@@ -19,11 +19,6 @@ An administrator can manage restaurants, menu items, and orders.
 - Administrator dashboard for managing orders, restaurants, and food items
 - MongoDB persistence through Mongoose
 
-> **Demo behavior:** Automatic status progression is for demonstration only;
-> it does not represent real restaurant or courier activity. Keep the backend
-> running for automatic transitions. Public registration creates customer
-> accounts only. Privileged accounts must be provisioned by a trusted
-> administrator.
 
 ## Tech stack
 
