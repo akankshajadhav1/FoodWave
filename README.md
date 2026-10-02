@@ -109,6 +109,41 @@ npm run frontend
 
 Run each command in a separate terminal.
 
+## Deploy for public trials
+
+The Vercel frontend needs a separately hosted backend and a cloud MongoDB
+database. For example, deploy the backend as a Render Web Service and use
+MongoDB Atlas for the database:
+
+1. Create a MongoDB Atlas database and copy its connection string. Create a
+   database user with a strong password, and allow network access from the
+   backend host. Atlas's `0.0.0.0/0` option allows connections from anywhere;
+   use it only with a strong database password and a dedicated database user.
+2. Create a Render Web Service from this repository with **Root Directory**
+   `Backend`, **Build Command** `npm install`, and **Start Command** `npm start`.
+   Set `MONGODB_URL` to the Atlas connection string, `JWT_SECRET` to a unique
+   random secret, and `CORS_ORIGIN` to your Vercel site URL (for example
+   `https://your-app.vercel.app`, without a trailing slash). Add more
+   comma-separated origins if you need to allow additional Vercel domains.
+3. In Vercel, set the project **Root Directory** to `Frontend`, the build
+   command to `npm run build`, and the output directory to `dist`. Add the
+   environment variable `VITE_API_URL` with your backend's public origin
+   (for example `https://your-api.onrender.com`, without a trailing slash).
+   Redeploy the frontend after setting or changing this variable.
+4. Populate the new database with sample restaurants and menu items only if
+   it is empty. The seed script deletes existing sample-data collections, so
+   never run it against a database containing data you need to keep. To seed
+   from your computer, run `node seed.js` from `Backend` with `MONGODB_URL`
+   set to the intended Atlas database.
+5. Open the Vercel URL and test browsing, registration, login, and Cash on
+   Delivery checkout. Public users can create customer accounts; do not give
+   visitors administrator access or production payment credentials.
+
+Keep `MONGODB_URL` and `JWT_SECRET` only in the backend host's environment
+settings. `VITE_API_URL` is public and should contain only the backend URL.
+Free backend instances may sleep when idle, so the first request after a
+period of inactivity can take longer.
+
 ## Optional sample data
 
 The seed script adds sample restaurants, categories, and menu items:

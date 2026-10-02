@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const dns = require("dns");
 
-// Set DNS result order to ipv4first to fix Node.js SRV resolution issue on macOS
 if (dns.setDefaultResultOrder) {
   dns.setDefaultResultOrder("ipv4first");
 }

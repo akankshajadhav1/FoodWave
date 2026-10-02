@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import axios from "axios";
 
-// Set base URL to backend server (Port 5001)
-axios.defaults.baseURL = "http://localhost:5001";
+const apiBaseUrl = import.meta.env.VITE_API_URL?.replace(/\/+$/, "") || "";
+axios.defaults.baseURL = apiBaseUrl;
 
 const AuthContext = createContext();
 
