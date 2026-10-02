@@ -178,25 +178,8 @@ FoodDeliveryApp/
 └── README.md
 ```
 
-## Troubleshooting
 
-- **MongoDB connection fails:** Confirm MongoDB is running and `MONGODB_URL`
-  points to the correct database.
-- **Frontend cannot reach the API:** Start the backend on port `5001` and
-  check `Backend/.env`.
-- **Order status does not advance:** Keep the backend process running; the
-  demo status scheduler runs in the backend.
-- **Admin dashboard access is denied:** Confirm the account has been
-  provisioned as `admin` in the same database configured for the backend, then
-  sign out and sign in again.
 
-## Security notes
-
-- Keep `.env` files and database credentials private.
-- Use a strong `JWT_SECRET`; do not deploy with the example value.
-- Use HTTPS and production-ready MongoDB access controls when deploying.
-- Public registration creates customer accounts only; privileged roles should
-  be assigned through a trusted process.
 
 ## Views
 
