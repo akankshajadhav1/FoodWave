@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://food-wave-bjfo.vercel.app"
+  baseURL: "https://food-wave-j6xd.vercel.app/"
 });
 
 api.interceptors.request.use((config) => {
