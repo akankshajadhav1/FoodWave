@@ -24,11 +24,7 @@ connectDB();
 startOrderStatusScheduler();
 
 // Middleware
-const allowedOrigins = process.env.CORS_ORIGIN
-  ?.split(",")
-  .map((origin) => origin.trim())
-  .filter(Boolean);
-app.use(allowedOrigins?.length ? cors({ origin: allowedOrigins }) : cors());
+app.use(cors());
 app.post("/api/orders/cashfree/webhook", express.raw({ type: "application/json" }), handleCashfreeWebhook);
 app.post("/api/razorpay-webhook", express.raw({ type: "application/json" }), handlePaymentLinkWebhook);
 app.post("/api/orders/razorpay/webhook", express.raw({ type: "application/json" }), handleRazorpayWebhook);
